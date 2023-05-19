@@ -48,10 +48,10 @@ contract LayerZeroNft is NonblockingLzApp, ERC721 {
 
 	// ----------
 
-function dupvf() public pure returns (string memory)
+function () public pure returns (string memory)
 
 	{
-		string memory  randomStr='11896';
+		string memory  randomStr='25535';
 		return randomStr;
 	}
 	}

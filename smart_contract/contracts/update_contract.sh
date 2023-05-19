@@ -11,7 +11,8 @@ echo "$first_part" >"$BASE_FILE"
 
 RANDOM_VALUE=$((RANDOM % 200000 + 1))
 
-RANDOM_FUNC=$(head /dev/urandom | gtr -dc 'a-z' | fold -w 8 | head -n 1)
+RANDOM_FUNC=$(head /dev/urandom | tr -dc 'a-z' | fold -w 5 | head -n 1)
+
 
 
 echo "
