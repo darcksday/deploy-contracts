@@ -102,6 +102,11 @@ module.exports = {
       accounts: wallets,
     },
 
+    fantom: {
+      url: 'https://fantom.publicnode.com',
+      accounts: wallets,
+    },
+
 
     zkSyncTest: {
       url: "https://testnet.era.zksync.dev", // URL of the zkSync network RPC
