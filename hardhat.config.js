@@ -107,6 +107,11 @@ module.exports = {
       accounts: wallets,
     },
 
+    celo: {
+      url: 'https://forno.celo.org',
+      accounts: wallets,
+    },
+
 
     zkSyncTest: {
       url: "https://testnet.era.zksync.dev", // URL of the zkSync network RPC
