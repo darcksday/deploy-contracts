@@ -1,6 +1,8 @@
 const inquirer = require("inquirer");
 const { utils } = require("./utils");
 const hre = require("hardhat");
+const clc = require("cli-color");
+const childProcess = require("node:child_process");
 exports.lz = {
 
   async deploy(ctFactory, signer, params) {
@@ -71,6 +73,23 @@ exports.lz = {
       } else {
         return false;
       }
+    }
+  },
+
+
+  async verify(contract_address, params, network) {
+    console.log(clc.blue(`Start verify contract ${contract_address}`));
+
+    //verify contract
+    try {
+      params = params.join(' ')
+      const workerProcess = childProcess.execSync(`npx hardhat verify --network ${network} ${contract_address} ${params}`);
+      console.log(clc.green(`Success verify contract ${contract_address}`));
+
+
+    } catch (e) {
+      console.error(clc.red(e));
+
     }
   }
 

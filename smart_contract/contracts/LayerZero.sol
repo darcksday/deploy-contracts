@@ -31,10 +31,10 @@ contract LayerZero is NonblockingLzApp, ERC20 {
 
 	// ----------
 
-function cjupa() public pure returns (string memory)
+function lxmiw() public pure returns (string memory)
 
 	{
-		string memory  randomStr='1977';
+		string memory  randomStr='12231';
 		return randomStr;
 	}
 	}

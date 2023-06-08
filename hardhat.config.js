@@ -127,8 +127,13 @@ module.exports = {
 
 
   },
+
   etherscan: {
-    apiKey: "FIG2APYTSQI5Z9P5D4NW84CSHZN2PFEI6Y"
+    apiKey: {
+      moonbeam: "",
+      moonriver: "",
+      fantom: ""
+    }
   },
 
   paths: {
