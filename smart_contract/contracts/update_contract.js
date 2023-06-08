@@ -26,6 +26,7 @@ for (let i = 0; i < lines.length; i++) {
 
 // Join the lines back together with the divider and write the updated content to the file
 fileContent = lines.join('// ----------');
+
 fs.writeFileSync(filePath, fileContent, 'utf-8');
 
 console.log('File updated!');

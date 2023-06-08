@@ -7,6 +7,7 @@ const clc = require("cli-color");
 
 exports.script = {
   CONTRACT_NAME: 'DeployZk',
+  CONTRACT_FILE: 'DeployZk',
 
   async main(params, signer, prtKey) {
     // Initialize the wallet.

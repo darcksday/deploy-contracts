@@ -14,7 +14,7 @@ const clc = require("cli-color")
 
 exports.script = {
   CONTRACT_NAME: 'LayerZeroNft',
-
+  CONTRACT_FILE: 'LayerZeroNft',
   async main(params, signer) {
     const bridgeToNetwork = params['bridgenetwork'];
     const ether = params['ether'];

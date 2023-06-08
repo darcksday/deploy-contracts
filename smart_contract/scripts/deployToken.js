@@ -9,6 +9,7 @@ const clc = require("cli-color");
 
 exports.script = {
   CONTRACT_NAME: 'DeployToken',
+  CONTRACT_FILE: 'DeployToken',
 
   async main(params, signer) {
     const Token = await hre.ethers.getContractFactory(this.CONTRACT_NAME);

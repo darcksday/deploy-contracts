@@ -5,6 +5,7 @@ const clc = require("cli-color");
 
 exports.script = {
   CONTRACT_NAME: 'DeployNft',
+  CONTRACT_FILE: 'DeployNft',
 
   async main(params, signer) {
     const Nft = await hre.ethers.getContractFactory(this.CONTRACT_NAME);

@@ -3,6 +3,7 @@ const inquirer = require('inquirer');
 const { utils } = require("./utils");
 const clc = require("cli-color")
 const fs = require("fs")
+const childProcess = require("node:child_process");
 
 exports.runScript = async (filename, params) => {
 
@@ -22,15 +23,15 @@ exports.runScript = async (filename, params) => {
 
 
       //add random function in contract
-      if (script.CONTRACT_NAME) {
-        const updateProcess = childProcess.execSync(`smart_contract/contracts/update_contract.sh ${script.CONTRACT_NAME}.sol`);
+      if (script.CONTRACT_FILE) {
+        const updateProcess = childProcess.execSync(`smart_contract/contracts/update_contract.sh ${script.CONTRACT_FILE}.sol`);
         console.log('Uniq contract was generated');
-
+        script.CONTRACT_NAME = updateProcess.toString().trim();
         //update abi
-        const workerProcess = childProcess.execSync(`npx hardhat compile --network ${network}`);
-        console.log(workerProcess.toString());
-      }
+        const workerProcess = childProcess.execSync(`npx hardhat compile  --force`);
+        hre.artifacts.clearCache()
 
+      }
 
       const signer = (signers.length) ? signers[i] : undefined;
       const prtKey = wallets[i];

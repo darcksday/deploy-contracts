@@ -9,11 +9,11 @@ const childProcess = require("node:child_process");
 
 exports.script = {
   CONTRACT_NAME: 'LayerZero',
+  CONTRACT_FILE: 'LayerZero',
 
   async main(params, signer) {
     const bridgeToNetwork = params['bridgenetwork'];
     const ether = params['ether'];
-    hre.config
     const network = hre.network.name;
 
     const destChainId1 = destIds[network]
@@ -25,7 +25,11 @@ exports.script = {
 
 
     hre.changeNetwork(network);
+
+
     const LZero1 = await hre.ethers.getContractFactory(this.CONTRACT_NAME);
+
+
     const params1 = [destChainId2.chainId, destChainId1.endpoint, supply, short_name, long_name]
 
     const deployed1 = await LZero1.connect(signer).deploy(...params1);
@@ -49,7 +53,7 @@ exports.script = {
 
       console.log("Deploy LZero2 deployed to:", bridgeToNetwork, deployed2.address);
 
-      await lz.verify(deployed2.address, params2, bridgeToNetwork);
+      // await lz.verify(deployed2.address, params2, bridgeToNetwork);
 
 
       await deployed1.trustAddress(deployed2.address);
@@ -63,7 +67,7 @@ exports.script = {
       hre.changeNetwork(network);
       const signer3 = await hre.ethers.getSigner(signer.address);
 
-      const bridgeContract = await hre.ethers.getContractAt('LayerZero', deployed1.address, signer3);
+      const bridgeContract = await hre.ethers.getContractAt(this.CONTRACT_NAME, deployed1.address, signer3);
 
       await utils.sleep(45000);
 

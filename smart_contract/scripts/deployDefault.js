@@ -11,6 +11,7 @@ const { utils } = require("./utils");
 
 exports.script = {
   CONTRACT_NAME: 'DefaultContract',
+  CONTRACT_FILE: 'DefaultContract',
 
   async main(params, signer) {
 
