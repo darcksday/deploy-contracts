@@ -125,7 +125,7 @@ module.exports = {
       zksync: true,
     },
     zkEvm: {
-      url: 'https://zkevm-rpc.com',
+      url: 'https://polygonzkevm-mainnet.g.alchemy.com/v2/8oc0GKbOQRG0--LcTd_1QUkaNUjWqIoU',
       accounts: wallets,
     }
 
@@ -136,7 +136,21 @@ module.exports = {
     apiKey: {
       moonbeam: "EF2F5TQWZU1KHFKFC1SEKU2JAA5G8TV57X",
       moonriver: "NYANYH2UKDY1U1ZT55VCWSDQ1X7GNHV69B",
-    }
+      zkEvm: "6ANIK517F7KK151FNM98EQN8ZPDGR6FTKN",
+    },
+
+
+    customChains: [
+      {
+        network: "zkEvm",
+        chainId: 1101,
+        urls: {
+          apiURL: "https://api-zkevm.polygonscan.com/api",
+          browserURL: "https://zkevm.polygonscan.com"
+        }
+      }
+    ]
+
   },
 
   paths: {

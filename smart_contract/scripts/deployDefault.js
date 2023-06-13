@@ -7,6 +7,7 @@
 const hre = require("hardhat");
 const clc = require("cli-color");
 const { utils } = require("./utils");
+const { lz } = require("./lzCommon");
 
 
 exports.script = {
@@ -16,11 +17,16 @@ exports.script = {
   async main(params, signer) {
 
     const long_name = utils.getRandomString(5, 8);
+    const network = hre.network.name;
+    let args = [long_name]
 
     const Default = await hre.ethers.getContractFactory(this.CONTRACT_NAME);
     const deployed = await Default.connect(signer).deploy(long_name);
     await deployed.deployed();
     console.log(clc.green("DefaultContract deployed to:", deployed.address));
+
+
+    await lz.verify(deployed.address, args, network)
 
 
   },

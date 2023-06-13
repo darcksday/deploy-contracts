@@ -22,10 +22,10 @@ contract DeployNft is ERC721 {
 
 	// ----------
 
-function jrzhj() public pure returns (string memory)
+function katoh() public pure returns (string memory)
 
 	{
-		string memory  randomStr='5529';
+		string memory  randomStr='21993';
 		return randomStr;
 	}
 	}
