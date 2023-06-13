@@ -19,10 +19,10 @@ contract DeployZk {
 
 	// ----------
 
-function lwvuq() public pure returns (string memory)
+function winmh() public pure returns (string memory)
 
 	{
-		string memory  randomStr='15609';
+		string memory  randomStr='31367';
 		return randomStr;
 	}
 	}

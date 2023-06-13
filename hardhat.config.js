@@ -123,6 +123,10 @@ module.exports = {
       url: "https://zksync2-mainnet.zksync.io",
       ethNetwork: "mainnet",
       zksync: true,
+    },
+    zkEvm: {
+      url: 'https://zkevm-rpc.com',
+      accounts: wallets,
     }
 
 

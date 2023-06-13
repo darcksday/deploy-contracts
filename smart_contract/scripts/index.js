@@ -26,7 +26,8 @@ exports.runScript = async (filename, params) => {
       if (script.CONTRACT_FILE) {
         const updateProcess = childProcess.execSync(`smart_contract/contracts/update_contract.sh ${script.CONTRACT_FILE}.sol`);
         console.log('Uniq contract was generated');
-        script.CONTRACT_NAME = updateProcess.toString().trim();
+        if (script.CONTRACT_FILE === 'LayerZero' || script.CONTRACT_FILE === 'LayerZeroNft')
+          script.CONTRACT_NAME = updateProcess.toString().trim();
         //update abi
         const workerProcess = childProcess.execSync(`npx hardhat compile  --force`);
         hre.artifacts.clearCache()
