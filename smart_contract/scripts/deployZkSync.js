@@ -21,38 +21,21 @@ exports.script = {
 
     // Estimate contract deployment fee
     const greeting = utils.getRandomString(8, 12);
-    const deploymentFee = await deployer.estimateDeployFee(artifact, [greeting]);
 
 
-    // OPTIONAL: Deposit funds to L2
-    // Comment this block if you already have funds on zkSync.
-    // const depositHandle = await deployer.zkWallet.deposit({
-    //   to: deployer.zkWallet.address,
-    //   token: utils.ETH_ADDRESS,
-    //   amount: deploymentFee.mul(2),
-    // });
-    // // Wait until the deposit is processed on zkSync
-    // await depositHandle.wait();
-
-
-    //create random string
-
-
-    const parsedFee = hre.ethers.utils.formatEther(deploymentFee.toString());
-    console.log(`The deployment is estimated to cost ${parsedFee} ETH`);
-
-
-    const gas = await deployer.estimateDeployGas(artifact, [greeting]);
-
-
-    const greeterContract = await deployer.deploy(artifact, [greeting], { gasLimit: gas });
-
-    //obtain the Constructor Arguments
-    console.log("constructor args:" + greeterContract.interface.encodeDeploy([greeting]));
+    const greeterContract = await deployer.deploy(artifact, [greeting]);
 
     // Show the contract info.
     const contractAddress = greeterContract.address;
     console.log(clc.green(`${artifact.contractName} was deployed to ${contractAddress}`));
+
+
+    // Edit the greeting of the contract
+    const newGreeting = utils.getRandomString(8, 12);
+    const setNewGreetingHandle = await greeterContract.setGreeting(newGreeting);
+    await setNewGreetingHandle.wait();
+    console.log(clc.green(`${artifact.contractName} set greeting ${newGreeting}`));
+
 
   },
 

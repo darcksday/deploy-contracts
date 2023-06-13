@@ -120,7 +120,7 @@ module.exports = {
     },
 
     zk_sync_era: {
-      url: "https://mainnet.era.zksync.io",
+      url: "https://zksync2-mainnet.zksync.io",
       ethNetwork: "mainnet",
       zksync: true,
     }

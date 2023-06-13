@@ -5,7 +5,7 @@ pragma solidity 0.8.14;
 import "@layerzerolabs/solidity-examples/contracts/lzApp/NonblockingLzApp.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-contract LayerZeroTestGwnms is NonblockingLzApp, ERC20 {
+contract LayerZeroTestCaogf is NonblockingLzApp, ERC20 {
 	uint16  destChainId;
 
 	constructor(uint16 _destChainId, address _lzEndpoint, uint _supply, string memory _short, string memory _long) NonblockingLzApp(_lzEndpoint) ERC20(_long, _short) {
@@ -31,10 +31,10 @@ contract LayerZeroTestGwnms is NonblockingLzApp, ERC20 {
 
 	// ----------
 
-function gwnms() public pure returns (string memory)
+function caogf() public pure returns (string memory)
 
 	{
-		string memory  randomStr='31419';
+		string memory  randomStr='10198';
 		return randomStr;
 	}
 	}
