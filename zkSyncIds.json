@@ -91,5 +91,9 @@
   "moonriver": {
     "chainId": 167,
     "endpoint": "0x7004396C99D5690da76A7C59057C5f3A53e01704"
+  },
+  "tenet": {
+    "chainId": 173,
+    "endpoint": "0x2D61DCDD36F10b22176E0433B86F74567d529aAa"
   }
 }

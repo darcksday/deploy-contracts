@@ -127,6 +127,11 @@ module.exports = {
     zkEvm: {
       url: 'https://polygonzkevm-mainnet.g.alchemy.com/v2/8oc0GKbOQRG0--LcTd_1QUkaNUjWqIoU',
       accounts: wallets,
+    },
+
+    tenet: {
+      url: 'https://rpc.tenet.org',
+      accounts: wallets,
     }
 
 
