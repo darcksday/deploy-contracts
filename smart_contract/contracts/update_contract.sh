@@ -14,7 +14,7 @@ RANDOM_FUNC=$(head /dev/urandom | tr -dc 'a-z' | fold -w 5 | head -n 1)
 
 
 # Define the search pattern
-search_pattern="LayerZeroTest[^ ]*"
+search_pattern="LayerZero[^ ]*"
 
 # Convert the first letter to uppercase
 first_letter="${RANDOM_FUNC:0:1}"
@@ -26,7 +26,7 @@ result="${uppercased_first_letter}${RANDOM_FUNC:1}"
 
 
 # Define the replacement string
-replacement_string="LayerZeroTest$result"
+replacement_string="LayerZero$result"
 
 
 

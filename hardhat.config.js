@@ -3,12 +3,10 @@ require("dotenv").config();
 require("@nomiclabs/hardhat-etherscan");
 require("hardhat-change-network");
 require("hardhat/config")
-require("@matterlabs/hardhat-zksync-deploy");
-require("@matterlabs/hardhat-zksync-solc");
 // const { polygon, moonbeam } = require('wagmi/chains')
 const { runScript } = require('./smart_contract/scripts/index');
 var fs = require("fs");
-const wallets = fs.readFileSync('./wallets.txt', 'utf8').split('\n');
+const wallets = fs.readFileSync('./wallets.txt', 'utf8').split('\n').map(str=>str.trim());
 
 // You need to export an object to set up your config
 // Go to https://hardhat.org/config/ to learn more
@@ -131,6 +129,10 @@ module.exports = {
 
     tenet: {
       url: 'https://rpc.tenet.org',
+      accounts: wallets,
+    },
+    canto: {
+      url: 'https://mainnode.plexnode.org:8545',
       accounts: wallets,
     }
 

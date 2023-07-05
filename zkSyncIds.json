@@ -95,5 +95,9 @@
   "tenet": {
     "chainId": 173,
     "endpoint": "0x2D61DCDD36F10b22176E0433B86F74567d529aAa"
+  },
+  "canto": {
+    "chainId": 159,
+    "endpoint": "0x9740FF91F1985D8d2B71494aE1A2f723bb3Ed9E4"
   }
 }

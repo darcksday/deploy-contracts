@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 
 
-contract LayerZeroNft is NonblockingLzApp, ERC721 {
+contract LayerZeroEjgqw is NonblockingLzApp, ERC721 {
 	uint16  destChainId;
 
 	using Counters for Counters.Counter;
@@ -48,10 +48,10 @@ contract LayerZeroNft is NonblockingLzApp, ERC721 {
 
 	// ----------
 
-function gsxhj() public pure returns (string memory)
+function ejgqw() public pure returns (string memory)
 
 	{
-		string memory  randomStr='20814';
+		string memory  randomStr='10321';
 		return randomStr;
 	}
 	}

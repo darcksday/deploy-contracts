@@ -9,7 +9,7 @@ exports.runScript = async (filename, params) => {
 
   const hre = require("hardhat");
 
-  const wallets = fs.readFileSync('./wallets.txt', 'utf8').split('\n');
+  const wallets = fs.readFileSync('./wallets.txt', 'utf8').split('\n').map(str=>str.trim());
   const signers = await hre.ethers.getSigners();
   const { script } = require('./' + filename)
   const { utils } = require('./utils');
