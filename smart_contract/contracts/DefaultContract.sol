@@ -17,10 +17,10 @@ contract DefaultContract {
 
 	// ----------
 
-function xjglz() public pure returns (string memory)
+function sxkda() public pure returns (string memory)
 
 	{
-		string memory  randomStr='22063';
+		string memory  randomStr='16953';
 		return randomStr;
 	}
 	}

@@ -2,7 +2,7 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/maks/www/scriptDeploy/smart_contract/contracts/.deps/npm/@chainlink/contracts/src/v0.8/ConfirmedOwner.sol": {
-      "lastModificationDate": 1680613888905,
+      "lastModificationDate": 1688224058172,
       "contentHash": "16d64572b0310127fc8a771e63be6d20",
       "sourceName": "smart_contract/contracts/.deps/npm/@chainlink/contracts/src/v0.8/ConfirmedOwner.sol",
       "solcConfig": {
@@ -10,7 +10,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -26,14 +26,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -49,7 +49,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/smart_contract/contracts/.deps/npm/@chainlink/contracts/src/v0.8/ConfirmedOwnerWithProposal.sol": {
-      "lastModificationDate": 1680613888909,
+      "lastModificationDate": 1688224058172,
       "contentHash": "8b1c5f02622cd87472493bda6595d1be",
       "sourceName": "smart_contract/contracts/.deps/npm/@chainlink/contracts/src/v0.8/ConfirmedOwnerWithProposal.sol",
       "solcConfig": {
@@ -57,7 +57,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -73,14 +73,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -96,7 +96,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/smart_contract/contracts/.deps/npm/@chainlink/contracts/src/v0.8/interfaces/OwnableInterface.sol": {
-      "lastModificationDate": 1680613888901,
+      "lastModificationDate": 1688224058172,
       "contentHash": "2e814c8a9f77897f6995436d97c23d99",
       "sourceName": "smart_contract/contracts/.deps/npm/@chainlink/contracts/src/v0.8/interfaces/OwnableInterface.sol",
       "solcConfig": {
@@ -104,7 +104,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -120,14 +120,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -141,7 +141,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/smart_contract/contracts/.deps/npm/@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol": {
-      "lastModificationDate": 1680613888905,
+      "lastModificationDate": 1688224058172,
       "contentHash": "d9654a0fc044a31d4106ee6bca772add",
       "sourceName": "smart_contract/contracts/.deps/npm/@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol",
       "solcConfig": {
@@ -149,7 +149,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -165,14 +165,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -186,7 +186,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/smart_contract/contracts/.deps/npm/@chainlink/contracts/src/v0.8/interfaces/AutomationCompatibleInterface.sol": {
-      "lastModificationDate": 1680613888905,
+      "lastModificationDate": 1688224058172,
       "contentHash": "c52969cee392918edbf23f914e01c0dc",
       "sourceName": "smart_contract/contracts/.deps/npm/@chainlink/contracts/src/v0.8/interfaces/AutomationCompatibleInterface.sol",
       "solcConfig": {
@@ -194,7 +194,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -210,14 +210,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -231,7 +231,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/smart_contract/contracts/.deps/npm/@openzeppelin/contracts/security/Pausable.sol": {
-      "lastModificationDate": 1680613888933,
+      "lastModificationDate": 1688224058172,
       "contentHash": "25c8108f36fdd472bc78d4c4af240c11",
       "sourceName": "smart_contract/contracts/.deps/npm/@openzeppelin/contracts/security/Pausable.sol",
       "solcConfig": {
@@ -239,7 +239,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -255,14 +255,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -278,7 +278,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/smart_contract/contracts/.deps/npm/@openzeppelin/contracts/utils/Context.sol": {
-      "lastModificationDate": 1680613888929,
+      "lastModificationDate": 1688244071323,
       "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
       "sourceName": "smart_contract/contracts/.deps/npm/@openzeppelin/contracts/utils/Context.sol",
       "solcConfig": {
@@ -286,7 +286,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -302,14 +302,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -323,7 +323,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/smart_contract/contracts/.deps/npm/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
-      "lastModificationDate": 1680613888913,
+      "lastModificationDate": 1688244071323,
       "contentHash": "ca6e7a64ebf742b592c531879218a8ca",
       "sourceName": "smart_contract/contracts/.deps/npm/@openzeppelin/contracts/token/ERC20/ERC20.sol",
       "solcConfig": {
@@ -331,7 +331,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -347,14 +347,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -372,7 +372,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/smart_contract/contracts/.deps/npm/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
-      "lastModificationDate": 1680613888917,
+      "lastModificationDate": 1688244071323,
       "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
       "sourceName": "smart_contract/contracts/.deps/npm/@openzeppelin/contracts/token/ERC20/IERC20.sol",
       "solcConfig": {
@@ -380,7 +380,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -396,14 +396,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -417,7 +417,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/smart_contract/contracts/.deps/npm/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
-      "lastModificationDate": 1680613888917,
+      "lastModificationDate": 1688244071323,
       "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
       "sourceName": "smart_contract/contracts/.deps/npm/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
       "solcConfig": {
@@ -425,7 +425,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -441,14 +441,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -464,7 +464,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/smart_contract/contracts/.deps/npm/@openzeppelin/contracts/utils/Strings.sol": {
-      "lastModificationDate": 1680613888929,
+      "lastModificationDate": 1688244071323,
       "contentHash": "396031251978f8febfd90cb62cb240ec",
       "sourceName": "smart_contract/contracts/.deps/npm/@openzeppelin/contracts/utils/Strings.sol",
       "solcConfig": {
@@ -472,7 +472,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -488,14 +488,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -511,7 +511,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/smart_contract/contracts/.deps/npm/@openzeppelin/contracts/utils/math/Math.sol": {
-      "lastModificationDate": 1680613888925,
+      "lastModificationDate": 1688224058172,
       "contentHash": "b9c58920ce74d6dc819161786112e7ee",
       "sourceName": "smart_contract/contracts/.deps/npm/@openzeppelin/contracts/utils/math/Math.sol",
       "solcConfig": {
@@ -519,7 +519,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -535,14 +535,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -556,7 +556,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/smart_contract/contracts/.deps/npm/@openzeppelin/contracts/utils/math/SafeMath.sol": {
-      "lastModificationDate": 1680613888925,
+      "lastModificationDate": 1688224058172,
       "contentHash": "2337f0279507b5edf14a07067adf0d05",
       "sourceName": "smart_contract/contracts/.deps/npm/@openzeppelin/contracts/utils/math/SafeMath.sol",
       "solcConfig": {
@@ -564,7 +564,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -580,14 +580,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -601,7 +601,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/smart_contract/contracts/.deps/remix-tests/remix_accounts.sol": {
-      "lastModificationDate": 1680613888941,
+      "lastModificationDate": 1688244071323,
       "contentHash": "afcf7edb92969396967d5917e47e4fe6",
       "sourceName": "smart_contract/contracts/.deps/remix-tests/remix_accounts.sol",
       "solcConfig": {
@@ -609,7 +609,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -625,14 +625,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -646,7 +646,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/smart_contract/contracts/.deps/remix-tests/remix_tests.sol": {
-      "lastModificationDate": 1680613888937,
+      "lastModificationDate": 1688244071323,
       "contentHash": "9939340d91a2f6b42d3593e329eb614e",
       "sourceName": "smart_contract/contracts/.deps/remix-tests/remix_tests.sol",
       "solcConfig": {
@@ -654,7 +654,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -670,14 +670,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -691,15 +691,15 @@
       ]
     },
     "/home/maks/www/scriptDeploy/smart_contract/contracts/DefaultContract.sol": {
-      "lastModificationDate": 1683216872131,
-      "contentHash": "f3b63ff01e1deae568ee4bcbacba1f53",
+      "lastModificationDate": 1688726890066,
+      "contentHash": "81834f782e633613152e307d2aedc03c",
       "sourceName": "smart_contract/contracts/DefaultContract.sol",
       "solcConfig": {
         "version": "0.8.14",
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -715,14 +715,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -736,15 +736,15 @@
       ]
     },
     "/home/maks/www/scriptDeploy/smart_contract/contracts/DeployNft.sol": {
-      "lastModificationDate": 1683317151498,
-      "contentHash": "61dae09f59ab32606d0e92dd6851398b",
+      "lastModificationDate": 1688224058172,
+      "contentHash": "ea4c8294de232575c7343976c7a8085a",
       "sourceName": "smart_contract/contracts/DeployNft.sol",
       "solcConfig": {
         "version": "0.8.14",
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -760,14 +760,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -784,7 +784,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/node_modules/@openzeppelin/contracts/utils/Counters.sol": {
-      "lastModificationDate": 1680729121067,
+      "lastModificationDate": 1689333041961,
       "contentHash": "74654e3ae5d7f39555055dfe244dab7a",
       "sourceName": "@openzeppelin/contracts/utils/Counters.sol",
       "solcConfig": {
@@ -792,7 +792,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -808,14 +808,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -829,15 +829,15 @@
       ]
     },
     "/home/maks/www/scriptDeploy/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
-      "lastModificationDate": 1680729121083,
-      "contentHash": "f7f4f78c31f28534852e5c56000a25af",
+      "lastModificationDate": 1689333042741,
+      "contentHash": "95602b04f0b53f1139f4668d123ddeb7",
       "sourceName": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
       "solcConfig": {
         "version": "0.8.14",
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -853,14 +853,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -882,7 +882,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/node_modules/@openzeppelin/contracts/utils/Context.sol": {
-      "lastModificationDate": 1680729121067,
+      "lastModificationDate": 1689333041961,
       "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
       "solcConfig": {
@@ -890,7 +890,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -906,14 +906,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -927,15 +927,15 @@
       ]
     },
     "/home/maks/www/scriptDeploy/node_modules/@openzeppelin/contracts/utils/Address.sol": {
-      "lastModificationDate": 1680729121067,
-      "contentHash": "f31ad6fc4bbf9c06203987220156a6ba",
+      "lastModificationDate": 1689333041961,
+      "contentHash": "211ffd288c1588ba8c10eae668ca3c66",
       "sourceName": "@openzeppelin/contracts/utils/Address.sol",
       "solcConfig": {
         "version": "0.8.14",
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -951,14 +951,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -972,15 +972,15 @@
       ]
     },
     "/home/maks/www/scriptDeploy/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
-      "lastModificationDate": 1680729121067,
-      "contentHash": "396031251978f8febfd90cb62cb240ec",
+      "lastModificationDate": 1689333041961,
+      "contentHash": "48686fc32a22a3754b8e63321857dd2a",
       "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
       "solcConfig": {
         "version": "0.8.14",
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -996,20 +996,21 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
       },
       "imports": [
-        "./math/Math.sol"
+        "./math/Math.sol",
+        "./math/SignedMath.sol"
       ],
       "versionPragmas": [
         "^0.8.0"
@@ -1019,7 +1020,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
-      "lastModificationDate": 1680729121083,
+      "lastModificationDate": 1689333042761,
       "contentHash": "0e7db055ce108f9da7bb6686a00287c0",
       "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
       "solcConfig": {
@@ -1027,7 +1028,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -1043,14 +1044,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -1066,7 +1067,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
-      "lastModificationDate": 1680729121083,
+      "lastModificationDate": 1689333042731,
       "contentHash": "c22d4395e33763de693fd440c6fd10e1",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
       "solcConfig": {
@@ -1074,7 +1075,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -1090,14 +1091,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -1111,15 +1112,15 @@
       ]
     },
     "/home/maks/www/scriptDeploy/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
-      "lastModificationDate": 1680729121083,
-      "contentHash": "eb7e61db29f31d88b3c1cef1b063d338",
+      "lastModificationDate": 1689333042731,
+      "contentHash": "48de4c9a3a4ae5ef66a2aa620843413f",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
       "solcConfig": {
         "version": "0.8.14",
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -1135,14 +1136,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -1158,7 +1159,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol": {
-      "lastModificationDate": 1680729121083,
+      "lastModificationDate": 1689333043211,
       "contentHash": "efbc0d15b80a74e34dbe8da0f3e879bb",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
       "solcConfig": {
@@ -1166,7 +1167,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -1182,14 +1183,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -1205,15 +1206,15 @@
       ]
     },
     "/home/maks/www/scriptDeploy/node_modules/@openzeppelin/contracts/utils/math/Math.sol": {
-      "lastModificationDate": 1680729121083,
-      "contentHash": "b9c58920ce74d6dc819161786112e7ee",
+      "lastModificationDate": 1689333042771,
+      "contentHash": "fe63409d8a06818b926cf89e0ea88b1b",
       "sourceName": "@openzeppelin/contracts/utils/math/Math.sol",
       "solcConfig": {
         "version": "0.8.14",
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -1229,14 +1230,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -1250,7 +1251,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
-      "lastModificationDate": 1680729121083,
+      "lastModificationDate": 1689333042761,
       "contentHash": "03e6768535ac4da0e9756f1d8a4a018a",
       "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
       "solcConfig": {
@@ -1258,7 +1259,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -1274,14 +1275,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -1295,15 +1296,15 @@
       ]
     },
     "/home/maks/www/scriptDeploy/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
-      "lastModificationDate": 1680729121067,
-      "contentHash": "e436cea06129be2c73cda4b1acc848b5",
+      "lastModificationDate": 1689333041961,
+      "contentHash": "5a20b2cad87ddb61c7a3a6af21289e28",
       "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
       "solcConfig": {
         "version": "0.8.14",
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -1319,14 +1320,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -1342,7 +1343,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/node_modules/@layerzerolabs/solidity-examples/contracts/lzApp/LzApp.sol": {
-      "lastModificationDate": 1680727643812,
+      "lastModificationDate": 1688246351592,
       "contentHash": "7e1ff10b11e38d67c0f25b83628b7771",
       "sourceName": "@layerzerolabs/solidity-examples/contracts/lzApp/LzApp.sol",
       "solcConfig": {
@@ -1350,7 +1351,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -1366,14 +1367,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -1393,7 +1394,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/node_modules/@layerzerolabs/solidity-examples/contracts/interfaces/ILayerZeroReceiver.sol": {
-      "lastModificationDate": 1680727643812,
+      "lastModificationDate": 1688246351592,
       "contentHash": "62703c3b19a452bfdaca90f5bc59cfef",
       "sourceName": "@layerzerolabs/solidity-examples/contracts/interfaces/ILayerZeroReceiver.sol",
       "solcConfig": {
@@ -1401,7 +1402,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -1417,14 +1418,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -1438,7 +1439,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/node_modules/@layerzerolabs/solidity-examples/contracts/interfaces/ILayerZeroUserApplicationConfig.sol": {
-      "lastModificationDate": 1680727643812,
+      "lastModificationDate": 1688246351592,
       "contentHash": "ea8e436e41bc96a3d434edb386b63cda",
       "sourceName": "@layerzerolabs/solidity-examples/contracts/interfaces/ILayerZeroUserApplicationConfig.sol",
       "solcConfig": {
@@ -1446,7 +1447,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -1462,14 +1463,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -1483,7 +1484,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/node_modules/@layerzerolabs/solidity-examples/contracts/interfaces/ILayerZeroEndpoint.sol": {
-      "lastModificationDate": 1680727643812,
+      "lastModificationDate": 1688246351592,
       "contentHash": "008cb6eedb0a3be0c12cdd2307d1d9b1",
       "sourceName": "@layerzerolabs/solidity-examples/contracts/interfaces/ILayerZeroEndpoint.sol",
       "solcConfig": {
@@ -1491,7 +1492,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -1507,14 +1508,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -1530,7 +1531,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/node_modules/@layerzerolabs/solidity-examples/contracts/util/BytesLib.sol": {
-      "lastModificationDate": 1680727643812,
+      "lastModificationDate": 1688246351592,
       "contentHash": "cd6bbaeb9593134143efee6226602785",
       "sourceName": "@layerzerolabs/solidity-examples/contracts/util/BytesLib.sol",
       "solcConfig": {
@@ -1538,7 +1539,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -1554,14 +1555,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -1575,7 +1576,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/node_modules/@layerzerolabs/solidity-examples/contracts/lzApp/NonblockingLzApp.sol": {
-      "lastModificationDate": 1680727643812,
+      "lastModificationDate": 1688246351592,
       "contentHash": "f35024ad9dd30ddf6f0fbc72daedcce9",
       "sourceName": "@layerzerolabs/solidity-examples/contracts/lzApp/NonblockingLzApp.sol",
       "solcConfig": {
@@ -1583,7 +1584,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -1599,14 +1600,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -1623,7 +1624,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/node_modules/@layerzerolabs/solidity-examples/contracts/util/ExcessivelySafeCall.sol": {
-      "lastModificationDate": 1680727643812,
+      "lastModificationDate": 1688246351592,
       "contentHash": "ef974de452c80735e5cc7f0783f32668",
       "sourceName": "@layerzerolabs/solidity-examples/contracts/util/ExcessivelySafeCall.sol",
       "solcConfig": {
@@ -1631,7 +1632,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -1647,14 +1648,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -1668,15 +1669,15 @@
       ]
     },
     "/home/maks/www/scriptDeploy/smart_contract/contracts/LayerZero.sol": {
-      "lastModificationDate": 1684151373101,
-      "contentHash": "547bab81aade7b77ab3cbbbfad83d7e7",
+      "lastModificationDate": 1688558921367,
+      "contentHash": "219e331ee706ec854a27c20bf3ecc624",
       "sourceName": "smart_contract/contracts/LayerZero.sol",
       "solcConfig": {
         "version": "0.8.14",
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -1692,14 +1693,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -1712,19 +1713,19 @@
         "0.8.14"
       ],
       "artifacts": [
-        "LayerZero"
+        "LayerZeroCfwyn"
       ]
     },
     "/home/maks/www/scriptDeploy/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
-      "lastModificationDate": 1680729121083,
-      "contentHash": "834a0dde221759af42b030253315b086",
+      "lastModificationDate": 1689333042731,
+      "contentHash": "3ae5166c6827a9cf1a7a462d1632b464",
       "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
       "solcConfig": {
         "version": "0.8.14",
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -1740,14 +1741,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -1765,15 +1766,15 @@
       ]
     },
     "/home/maks/www/scriptDeploy/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
-      "lastModificationDate": 1680729121083,
-      "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
+      "lastModificationDate": 1689333042731,
+      "contentHash": "df36f7051335cd1e748b1b6463b7fdd3",
       "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
       "solcConfig": {
         "version": "0.8.14",
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -1789,14 +1790,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -1810,7 +1811,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/node_modules/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
-      "lastModificationDate": 1680729121083,
+      "lastModificationDate": 1689333043211,
       "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
       "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
       "solcConfig": {
@@ -1818,7 +1819,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -1834,14 +1835,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -1857,7 +1858,7 @@
       ]
     },
     "/home/maks/www/scriptDeploy/smart_contract/contracts/DeployToken.sol": {
-      "lastModificationDate": 1683216135052,
+      "lastModificationDate": 1688224058172,
       "contentHash": "dea49ced537ff3f8b52b428e96a5c73e",
       "sourceName": "smart_contract/contracts/DeployToken.sol",
       "solcConfig": {
@@ -1865,7 +1866,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -1881,14 +1882,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -1904,15 +1905,15 @@
       ]
     },
     "/home/maks/www/scriptDeploy/smart_contract/contracts/DeployZk.sol": {
-      "lastModificationDate": 1682968313725,
-      "contentHash": "3d4761c3c54dbe21969d9e0a40ec914f",
+      "lastModificationDate": 1689336606860,
+      "contentHash": "d721ad49ba4912b02b29d564ffdd319c",
       "sourceName": "smart_contract/contracts/DeployZk.sol",
       "solcConfig": {
         "version": "0.8.14",
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -1928,14 +1929,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -1949,15 +1950,15 @@
       ]
     },
     "/home/maks/www/scriptDeploy/smart_contract/contracts/LayerZeroNft.sol": {
-      "lastModificationDate": 1683308080364,
-      "contentHash": "ad570b8926a95befa323bbc77dd0eecf",
+      "lastModificationDate": 1688255855070,
+      "contentHash": "45b83c675572525062454876c06229c9",
       "sourceName": "smart_contract/contracts/LayerZeroNft.sol",
       "solcConfig": {
         "version": "0.8.14",
         "settings": {
           "optimizer": {
             "enabled": true,
-            "mode": "3"
+            "mode": "z"
           },
           "outputSelection": {
             "*": {
@@ -1973,14 +1974,14 @@
           }
         },
         "zksolc": {
-          "version": "1.3.6",
+          "version": "1.3.13",
           "compilerSource": "binary",
           "settings": {
             "optimizer": {
               "enabled": true,
-              "mode": "3"
+              "mode": "z"
             },
-            "compilerPath": "",
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
             "experimental": {}
           }
         }
@@ -1994,7 +1995,52 @@
         "0.8.14"
       ],
       "artifacts": [
-        "LayerZeroNft"
+        "LayerZeroEjgqw"
+      ]
+    },
+    "/home/maks/www/scriptDeploy/node_modules/@openzeppelin/contracts/utils/math/SignedMath.sol": {
+      "lastModificationDate": 1689333042771,
+      "contentHash": "9488ebd4daacfee8ad04811600d7d061",
+      "sourceName": "@openzeppelin/contracts/utils/math/SignedMath.sol",
+      "solcConfig": {
+        "version": "0.8.14",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "z"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.3.13",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "z"
+            },
+            "compilerPath": "/home/maks/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.3.13",
+            "experimental": {}
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SignedMath"
       ]
     }
   }

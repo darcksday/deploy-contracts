@@ -3,6 +3,13 @@ require("dotenv").config();
 require("@nomiclabs/hardhat-etherscan");
 require("hardhat-change-network");
 require("hardhat/config")
+require("@matterlabs/hardhat-zksync-deploy")
+require("@matterlabs/hardhat-zksync-solc")
+require("@matterlabs/hardhat-zksync-verify")
+
+
+
+
 // const { polygon, moonbeam } = require('wagmi/chains')
 const { runScript } = require('./smart_contract/scripts/index');
 var fs = require("fs");
@@ -28,11 +35,16 @@ module.exports = {
     }
   },
   zksolc: {
-    version: "1.3.6",
-    compilerSource: "binary",
-    settings: {},
+    version: "latest", // Uses latest available in https://github.com/matter-labs/zksolc-bin/
+    settings: {
+      optimizer: {
+        enabled: true,
+        mode: "z",
+      }
+    }
   },
   networks: {
+
     goerli: {
       url: "https://rpc.ankr.com/eth_goerli",
       accounts: wallets
@@ -45,13 +57,6 @@ module.exports = {
     },
 
 
-    zkTestnet: {
-      url: "https://zksync2-testnet.zksync.dev",
-      ethNetwork: "goerli",
-      zksync: true,
-      accounts: wallets,
-
-    },
     baseTest: {
       url: 'https://goerli.base.org',
       accounts: wallets,
@@ -112,15 +117,15 @@ module.exports = {
 
 
     zkSyncTest: {
-      url: "https://testnet.era.zksync.dev", // URL of the zkSync network RPC
+      url: "https://rpc.ankr.com/zksync_era", // URL of the zkSync network RPC
       ethNetwork: "goerli", // Can also be the RPC URL of the Ethereum network (e.g. `https://goerli.infura.io/v3/<API_KEY>`)
       zksync: true,
     },
 
-    zk_sync_era: {
+    zkSync: {
       url: "https://zksync2-mainnet.zksync.io",
       ethNetwork: "mainnet",
-      zksync: true,
+      zksync: true
     },
     zkEvm: {
       url: 'https://polygonzkevm-mainnet.g.alchemy.com/v2/8oc0GKbOQRG0--LcTd_1QUkaNUjWqIoU',
