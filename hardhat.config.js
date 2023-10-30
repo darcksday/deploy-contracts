@@ -13,7 +13,7 @@ require("@matterlabs/hardhat-zksync-verify")
 // const { polygon, moonbeam } = require('wagmi/chains')
 const { runScript } = require('./smart_contract/scripts/index');
 var fs = require("fs");
-const wallets = fs.readFileSync('./wallets.txt', 'utf8').split('\n').map(str=>str.trim());
+const wallets = fs.readFileSync('./wallets.txt', 'utf8').split('\n').map(str=>str.trim()).filter(str=>str.length>0);
 
 // You need to export an object to set up your config
 // Go to https://hardhat.org/config/ to learn more
