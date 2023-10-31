@@ -139,6 +139,11 @@ module.exports = {
     canto: {
       url: 'https://mainnode.plexnode.org:8545',
       accounts: wallets,
+    },
+
+    scroll: {
+      url: 'https://rpc.scroll.io',
+      accounts: wallets,
     }
 
 

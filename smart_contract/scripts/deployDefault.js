@@ -26,7 +26,7 @@ exports.script = {
     console.log(clc.green("DefaultContract deployed to:", deployed.address));
 
 
-    await lz.verify(deployed.address, args, network)
+    // await lz.verify(deployed.address, args, network)
 
 
   },

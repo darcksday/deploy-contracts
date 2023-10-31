@@ -1,4 +1,4 @@
-# Multiple Deploys on EVM (cut version)
+# Multiple Deploys on EVM 
 
 ## Возможности
 
@@ -15,7 +15,7 @@
 ### Prerequisites
 
 ```
-nodeJS >= 16.0
+nodeJS >= 18.0
 npm
 ```
 
