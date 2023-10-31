@@ -61,10 +61,6 @@ module.exports = {
       url: 'https://goerli.base.org',
       accounts: wallets,
     },
-    scroll: {
-      url: 'https://alpha-rpc.scroll.io/l2',
-      accounts: wallets,
-    },
     arbNova: {
       url: 'https://nova.arbitrum.io/rpc',
       accounts: wallets,
