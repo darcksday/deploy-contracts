@@ -4,6 +4,7 @@ const { utils } = require("./utils");
 const clc = require("cli-color")
 const fs = require("fs")
 const childProcess = require("node:child_process");
+const {createObjectCsvWriter} = require("csv-writer");
 
 exports.runScript = async (filename, params) => {
 
@@ -16,6 +17,26 @@ exports.runScript = async (filename, params) => {
   const { utils } = require('./utils');
   const childProcess = require('node:child_process');
   const network = hre.network.name;
+  let headers = [
+    { id: 'wallet', title: 'wallet'},
+    { id: 'contract_address', title: 'contract_address'},
+    { id: 'contract_name', title: 'contract_name'},
+    { id: 'network', title: 'network'},
+    { id: 'date', title: 'date'},
+
+  ]
+
+  // Specify the CSV file path
+  const csvFilePath = './result.csv';
+
+  // Check if the CSV file exists
+  const fileExists = fs.existsSync(csvFilePath);
+
+  let csvWriter = createObjectCsvWriter({
+    path: csvFilePath,
+    header: headers,
+    append: fileExists,
+  })
 
 
   return new Promise(async (resolve, reject) => {
@@ -41,9 +62,16 @@ exports.runScript = async (filename, params) => {
       console.log(clc.blue(`Start running on ${walletAddress}`));
 
       try {
-        await script.main(params, signer, prtKey);
+        let contract_address=await script.main(params, signer, prtKey);
         console.log(clc.green.bold(`Success | ${walletAddress}`))
 
+        await csvWriter.writeRecords([{
+          wallet: walletAddress,
+          contract_address: contract_address,
+          contract_name:script.CONTRACT_FILE,
+          network:hre.network.name,
+          date:'',
+        }])
 
       } catch (e) {
         console.error(clc.red(e));
@@ -67,6 +95,10 @@ exports.runScript = async (filename, params) => {
 
       //wait random time
       const time = utils.getRandomNumber(...hre.config.exec_interval);
+
+
+
+
 
       await utils.sleep(time);
 

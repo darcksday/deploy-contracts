@@ -224,6 +224,13 @@ task("deploy-ZkSync", "Deploy ZkSync")
   });
 
 
+task("deploy-deposit", "Deploy Deposit")
+    .setAction(async (taskArgs) => {
+      await runScript('deployDeposit.js', taskArgs);
+
+    });
+
+
 
 
 
