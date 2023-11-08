@@ -25,14 +25,15 @@ module.exports = {
 
   //random interval between wallets  from 1000ms to 2000ms
   exec_interval: [1000, 4000],
-
-
-  solidity: "0.8.14",
-  settings: {
-    optimizer: {
-      enabled: true,
-      runs: 200
-    }
+  solidity: {
+    version: "0.8.14",
+    settings: {
+      optimizer: {
+        enabled: true,
+        runs: 200
+      }
+    },
+    evmVersion: "london"
   },
   zksolc: {
     version: "latest", // Uses latest available in https://github.com/matter-labs/zksolc-bin/
@@ -43,6 +44,8 @@ module.exports = {
       }
     }
   },
+
+
   networks: {
 
     goerli: {
