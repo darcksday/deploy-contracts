@@ -230,6 +230,12 @@ task("deploy-deposit", "Deploy Deposit")
 
     });
 
+task("deploy-staking", "Deploy Deposit")
+    .setAction(async (taskArgs) => {
+      await runScript('deployStaking.js', taskArgs);
+
+    });
+
 
 
 

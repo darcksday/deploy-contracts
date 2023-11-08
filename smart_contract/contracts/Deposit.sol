@@ -48,10 +48,10 @@ contract Deposit {
 
     // ----------
 
-function amzil() public pure returns (string memory)
+function hvjij() public pure returns (string memory)
 
 	{
-		string memory  randomStr='9041';
+		string memory  randomStr='20585';
 		return randomStr;
 	}
 	}
