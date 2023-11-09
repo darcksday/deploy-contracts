@@ -59,10 +59,10 @@ cp wallets-example.txt wallets.txt
 
 ### Verify contract (Scroll for example)
 1. В  файле **hardhat.config.js** включить ```verify_contract=true```
-2. В  файле **hardhat.config.js** в etherscan->apiKey->scroll добавить апи ключ  (регаться и создавать тут https://scrollscan.com/myapikey)
+2. В  файле **hardhat.config.js** в ```etherscan->apiKey->scroll``` добавить апи ключ  (регаться и создавать тут https://scrollscan.com/myapikey)
 
 ### Запись в CSV
-Задеплоеные контракты пишуться в results.csv
+Задеплоеные контракты пишуться в **results.csv**
 
 
 #### Donate на комсу для тестов (evm) : ```0x28faD3430EcA42e3F89eD585eB10ceB9be35f7b9```
