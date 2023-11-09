@@ -6,6 +6,7 @@
 const hre = require("hardhat");
 const { utils } = require("./utils");
 const clc = require("cli-color");
+const {lz} = require("./lzCommon");
 
 exports.script = {
   CONTRACT_NAME: 'DeployToken',
@@ -16,11 +17,16 @@ exports.script = {
     const short_name = utils.getRandomString(3, 4);
     const long_name = utils.getRandomString(5, 8);
     const supply = utils.getRandomNumber(10000, 99999999)
-
-    const deployed = await Token.connect(signer).deploy(supply, short_name, long_name);
+    const network = hre.network.name;
+    const args=[supply, short_name, long_name]
+    const deployed = await Token.connect(signer).deploy(...args);
     await deployed.deployed();
     console.log(clc.green(`Token ${short_name} deployed to:`, deployed.address));
+    if (hre.config.verify_contract){
+      await lz.verify(deployed.address, args, network)
+    }
 
+    return deployed.address
 
   },
 

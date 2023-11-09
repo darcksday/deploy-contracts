@@ -25,8 +25,12 @@ exports.script = {
     await deployed.deployed();
     console.log(clc.green("DefaultContract deployed to:", deployed.address));
 
+    if (hre.config.verify_contract){
+      await lz.verify(deployed.address, args, network)
+    }
 
-    // await lz.verify(deployed.address, args, network)
+    return deployed.address
+
 
 
   },
