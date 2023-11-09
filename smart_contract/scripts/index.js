@@ -62,6 +62,9 @@ exports.runScript = async (filename, params) => {
       console.log(clc.blue(`Start running on ${walletAddress}`));
 
       try {
+
+        await utils.waitGas(hre.config.max_gas)
+
         let contract_address=await script.main(params, signer, prtKey);
         console.log(clc.green.bold(`Success | ${walletAddress}`))
 

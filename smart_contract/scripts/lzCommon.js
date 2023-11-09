@@ -82,14 +82,17 @@ exports.lz = {
 
     //verify contract
     try {
-      params = params.join(' ')
-      const workerProcess = childProcess.execSync(`npx hardhat verify --network ${network} ${contract_address} ${params}`);
+      const joinParams = params.join(' ')
+      const workerProcess = childProcess.execSync(`npx hardhat verify --network ${network} ${contract_address} ${joinParams}`);
       console.log(clc.green(`Success verify contract ${contract_address}`));
 
 
     } catch (e) {
       console.error(clc.red(e));
+      await utils.sleep(10000);
+      console.log(contract_address, params, network)
 
+      return await this.verify(contract_address, params, network)
     }
   }
 

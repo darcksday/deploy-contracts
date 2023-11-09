@@ -24,8 +24,9 @@ const wallets = fs.readFileSync('./wallets.txt', 'utf8').split('\n').map(str=>st
 module.exports = {
 
   //random interval between wallets  from 1000ms to 2000ms
-  exec_interval: [1000, 4000],
+  exec_interval: [10000, 15000],
   verify_contract:false,
+  max_gas:25,
   solidity: {
     version: "0.8.14",
     settings: {
@@ -151,10 +152,10 @@ module.exports = {
 
   etherscan: {
     apiKey: {
-      moonbeam: "",
-      moonriver: "",
-      zkEvm: "",
-      scroll: "",
+      moonbeam: "EF2F5TQWZU1KHFKFC1SEKU2JAA5G8TV57X",
+      moonriver: "NYANYH2UKDY1U1ZT55VCWSDQ1X7GNHV69B",
+      zkEvm: "6ANIK517F7KK151FNM98EQN8ZPDGR6FTKN",
+      scroll: "5REUHVPCNSD9PTBFXICM6Z7EBIUXYE1RBH",
     },
 
 

@@ -16,13 +16,13 @@ exports.script = {
 
   async main(params, signer) {
 
+
+
     const short_name = utils.getRandomString(3, 4);
     const long_name = utils.getRandomString(5, 8);
     const supply = utils.getRandomNumber(1000000, 99999999)
     let args = [supply,short_name,long_name]
     const network = hre.network.name;
-
-
     const Deposit = await hre.ethers.getContractFactory(this.CONTRACT_NAME);
 
 
