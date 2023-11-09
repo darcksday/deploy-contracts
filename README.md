@@ -9,7 +9,8 @@
 5. ZkSync contract деплой
 6. Deploy Deposit contract
 7. Deploy Staking contract with token
-8.Verify Contract
+8. Verify Contract
+   
 
 ---
 
