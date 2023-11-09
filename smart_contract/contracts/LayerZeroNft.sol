@@ -24,7 +24,7 @@ contract LayerZeroEjgqw is NonblockingLzApp, ERC721 {
 		_mint(toAddress, amount);
 	}
 
-	function bridge(uint _amount) public payable {
+	function bridge() public payable {
 		_burn(currentTokenId.current());
 		bytes memory payload = abi.encode(msg.sender, currentTokenId.current());
 		_lzSend(destChainId, payload, payable(msg.sender), address(0x0), bytes(""), msg.value);

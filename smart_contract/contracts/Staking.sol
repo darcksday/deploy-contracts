@@ -74,10 +74,10 @@ contract Staking is ERC20 {
 
 // ----------
 
-function twhng() public pure returns (string memory)
+function diduj() public pure returns (string memory)
 
 	{
-		string memory  randomStr='28988';
+		string memory  randomStr='2595';
 		return randomStr;
 	}
 	}

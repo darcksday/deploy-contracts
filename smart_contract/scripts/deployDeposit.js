@@ -16,9 +16,7 @@ exports.script = {
 
   async main(params, signer) {
 
-    const long_name = utils.getRandomString(5, 8);
     const network = hre.network.name;
-    let args = [long_name]
 
 
 
@@ -44,7 +42,7 @@ exports.script = {
 
 
     if (hre.config.verify_contract){
-      await lz.verify(deployed.address, args, network)
+      await lz.verify(deployed.address, [], network)
     }
 
 
