@@ -18,8 +18,9 @@ exports.script = {
 
     const short_name = utils.getRandomString(3, 4);
     const long_name = utils.getRandomString(5, 8);
-    const supply = utils.getRandomNumber(10000, 99999999)
+    const supply = utils.getRandomNumber(1000000, 99999999)
     let args = [supply,short_name,long_name]
+    const network = hre.network.name;
 
 
     const Deposit = await hre.ethers.getContractFactory(this.CONTRACT_NAME);
@@ -42,8 +43,9 @@ exports.script = {
     console.log(clc.green("Deposit deployed to:", deployed.address));
 
 
-
-    // await lz.verify(deployed.address, args, network)
+    if (hre.config.verify_contract){
+      await lz.verify(deployed.address, args, network)
+    }
 
     return deployed.address
 

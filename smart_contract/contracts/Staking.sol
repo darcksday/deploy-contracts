@@ -74,11 +74,11 @@ contract Staking is ERC20 {
 
 // ----------
 
-    function gouyy() public pure returns (string memory)
+function vgqsg() public pure returns (string memory)
 
-    {
-        string memory  randomStr='22080';
-        return randomStr;
-    }
-}
+	{
+		string memory  randomStr='17168';
+		return randomStr;
+	}
+	}
 

@@ -25,6 +25,7 @@ module.exports = {
 
   //random interval between wallets  from 1000ms to 2000ms
   exec_interval: [1000, 4000],
+  verify_contract:false,
   solidity: {
     version: "0.8.14",
     settings: {
@@ -150,9 +151,10 @@ module.exports = {
 
   etherscan: {
     apiKey: {
-      moonbeam: "EF2F5TQWZU1KHFKFC1SEKU2JAA5G8TV57X",
-      moonriver: "NYANYH2UKDY1U1ZT55VCWSDQ1X7GNHV69B",
-      zkEvm: "6ANIK517F7KK151FNM98EQN8ZPDGR6FTKN",
+      moonbeam: "",
+      moonriver: "",
+      zkEvm: "",
+      scroll: "",
     },
 
 
@@ -163,6 +165,14 @@ module.exports = {
         urls: {
           apiURL: "https://api-zkevm.polygonscan.com/api",
           browserURL: "https://zkevm.polygonscan.com"
+        }
+      },
+      {
+        network: "scroll",
+        chainId: 534352,
+        urls: {
+          apiURL: "https://api.scrollscan.com/api",
+          browserURL: "https://scrollscan.com"
         }
       }
     ]

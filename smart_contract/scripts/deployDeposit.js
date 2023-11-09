@@ -43,8 +43,11 @@ exports.script = {
     console.log(clc.green("Deposit deployed to:", deployed.address));
 
 
+    if (hre.config.verify_contract){
+      await lz.verify(deployed.address, args, network)
+    }
 
-    // await lz.verify(deployed.address, args, network)
+
 
     return deployed.address
 
