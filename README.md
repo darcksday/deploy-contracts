@@ -7,6 +7,9 @@
 3. Token contract деплой
 4. LayerZero bridge создание своего токена на 2 указаных сетях и бридж между ними
 5. ZkSync contract деплой
+6. Deploy Deposit contract
+7. Deploy Staking contract with token
+8.Verify Contract
 
 ---
 
@@ -17,6 +20,7 @@
 ```
 nodeJS >= 18.0
 npm
+ubuntu
 ```
 
 Install dependencies and create environment file:
@@ -32,8 +36,7 @@ cp wallets-example.txt wallets.txt
 - В каждей команде есть флаг к примеру ``` hardhat deploy-default --network moonbeam ``` флаг moonbeam который указывает на EVM сеть в
   которую будет происходить деплой, в некоторых вариантах флагов несколько
 - Доступные EVM сети в файле hardhat.config.js в обекте networks. Можете так же добавить нужную EVM сеть самостоятельно по примеру
-- Перед стартом убедитесь что у вас есть средства в выбраной сети на оплату комиссий для масовой отправки с бинанса рекомендуж юзать так же
-  мой реп https://github.com/darcksday/all-in-one-python
+
 
 ### Варианты деплоев:
 
@@ -47,9 +50,19 @@ cp wallets-example.txt wallets.txt
    Для того чтобы понимать с какой сети в какую возможно бриджить заходим в доку где endpoints должны быть
    разные https://layerzero.gitbook.io/docs/technical-reference/mainnet/supported-chain-ids
 5. Zk Testnet Deploy  ```npx hardhat deploy-ZkSync --network zkTestnet```
+6. Deploy Deposit contract  ```npx hardhat deploy-deposit --network scroll```
+7. Deploy Staking contract with token  ```npx hardhat deploy-staking --network scroll```
 
 ---
 
+
+
+### Verify contract (Scroll for example)
+1. В  файле **hardhat.config.js** включить ```verify_contract=true```
+2. В  файле **hardhat.config.js** в etherscan->apiKey->scroll добавить апи ключ  (регаться и создавать тут https://scrollscan.com/myapikey)
+
+### Запись в CSV
+Задеплоеные контракты пишуться в results.csv
 
 
 #### Donate на комсу для тестов (evm) : ```0x28faD3430EcA42e3F89eD585eB10ceB9be35f7b9```
